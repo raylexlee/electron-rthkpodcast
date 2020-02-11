@@ -1,0 +1,26 @@
+{
+  "name": "electron-rthkpodcast",
+  "version": "1.0.0",
+  "description": "Another presentation of rthk podcast series with autoplay and other easy offline features.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "rthk",
+    "podcast",
+    "electron"
+  ],
+  "author": "Raylex Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0",
+    "xmldom": "^0.2.1",
+    "xpath": "0.0.27"
+  }
+}
